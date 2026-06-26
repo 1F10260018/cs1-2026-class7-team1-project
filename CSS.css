@@ -6,9 +6,22 @@ html {
 
 h1 {
     font-size: 50px;
+    margin: 40px 0 20px 0;
 }
 
 .pages {
-    background-color: #f4c2c1;
-    border-color: #ffffff;
+    border: 3px solid #ffffff;
+    padding: 15px 20px;       /* 内側に余白を作って文字を読みやすく */
+    width: 90%;               /* 画面幅に合わせる */
+    max-width: 800px;         /* 広がりすぎない最大幅 */
+    margin: 0 auto 40px auto; /* 左右中央揃え ＋ 下に余白 */
+
+}
+
+.links {
+    background-color: #ef94db;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto 15px auto;
+    
 }
