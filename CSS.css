@@ -1,4 +1,14 @@
+html {
+    background-color: #afdfe4;
+    color: #ffffff;
+    text-align: center
+}
+
 h1 {
     font-size: 50px;
-    text-align: center
+}
+
+.pages {
+    background-color: #f4c2c1;
+    border-color: #ffffff;
 }
